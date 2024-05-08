@@ -1,0 +1,28 @@
+--Projenin Durumu--
+
+'MainMenuForm' dışındaki formlar projenin önceki haline dair
+formlardır. Projeyi başta öyle yapmıştım ancak sonra UML diyagramı
+yapmaya çalıştığımda farkettim ki nesnem yok. Her şeyi ya Ram'de
+tutuyorum ya da veri tabanında. O yüzden bütün proje temasını baştan
+OOP bazlı değiştirdim. Projenin Son Halinde Sadece ' MainMenuForm'
+ve 'Kontrol' ibaresi ile başlayan sayfalar geçerli.
+
+--Nedenini Bilmediğim Hata--
+
+YenileListele(); Adında bir metodum var. Bu metot her işlemden sonra
+DataGridView lardaki verileri otomatik güncelliyor ve runtime da bir
+hata almıyorum. Ancak MainMenuForm un Tasarımı görüntülerden
+hata veriyor. Ben, siz kodu açtıgınızda tasarımı görüntüleyebilin diye
+tüm Yenile listele metotlarını comment satırına aldım. Siz kodun çalış-
+masını kontrol etmek için comment satırından kaldırırsınız.
+
+--Veri Tabanı Dosyaları--
+
+Proje DataBase içindeki Dosyaları C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER02\MSSQL\DATA
+içine atınız. Biz böyle halletmiştik. 'MSSQL15.MSSQLSERVER02' yazan yerde veritabanı lokasyonunuzu seçiniz.
+Proje içindeki 'SqlUtils' yerine kendi lokasyonunuzu yazınız.
+
+--Mazeret--
+
+Hasta olduğum süreçte maillerimi kontrol edememiştim. Siz 17 Ocak Saat 10'da ' Neden Hala Projenizi atmadınız'
+dediğinizde farkettim. Zaten her şey hazırdı. Anca atabilmiş bulundum. Kusura bakmayın
